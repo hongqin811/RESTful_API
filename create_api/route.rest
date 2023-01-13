@@ -1,0 +1,27 @@
+GET http://localhost:3000/viewers
+
+### 
+
+GET http://localhost:3000/viewers/63c1dd70f1d3c60b24edcb7d
+
+###
+
+POST http://localhost:3000/viewers
+Content-Type: application/json
+
+{
+    "name": "THOM",
+    "viewWebsite": "Youtube"
+}
+
+###
+
+PATCH http://localhost:3000/viewers/63c1dd75f1d3c60b24edcb7f
+
+{
+    "name": "MeiKi Chen",
+}
+###
+
+DELETE http://localhost:3000/viewers/63c1dd70f1d3c60b24edcb7d
+
